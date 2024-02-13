@@ -1,0 +1,37 @@
+site_name: NANSEN - Neuro ANalysis Software ENsemble
+repo_url: https://github.com/VervaekeLab/NANSEN
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: custom
+      accent: deep-orange
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+      accent: deep-orange
+  font:
+    text: Roboto
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Home: index.md
+  - Start Here:
+    - Basics: 'basics.md'
+  - Apps:
+    - Imviewer: 'imviewer.md'
+    - Roimanager: 'roimanager.md'
+  - Tutorials:
+    - Basics: 'test.md'
+  - API:
+    - Basics: 'api.md'
+  - FAQ: 'faq.md'
